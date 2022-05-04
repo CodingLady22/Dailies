@@ -7,7 +7,7 @@ The numbering starts at 1. The format is n: string. Notice the colon and space i
 
 Examples: (Input --> Output)
 
-[] --> []
+// [] --> []
 ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 */
 var number=function(array){
