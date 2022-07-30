@@ -7,12 +7,10 @@ The rotten fruit name will be in this camelcase (rottenFruit).
 The returned array should be in lowercase.
 */
 
-function removeRotten(bagOfFruits){ 
   function removeRotten(bagOfFruits){
   if(!bagOfFruits) { return []; }
   
   return bagOfFruits.map(function(fruit) {
     return fruit.replace("rotten", "").toLowerCase();
   });
-}
 }
