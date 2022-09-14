@@ -20,7 +20,5 @@ function duplicateEncode(word){
     return a.indexOf(el) == a.lastIndexOf(el) ? "(" : ")"
   })
   .join('')
-  
-  
 
 }
